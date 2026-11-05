@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "neteye-platform",
+  "description": "Claude Code plugins and mods by NetEye Platform developers",
+  "owner": {
+    "name": "NetEye Platform",
+    "url": "https://github.com/neteye-platform"
+  },
+  "plugins": [
+    {
+      "name": "cc-split-diff-view",
+      "description": "Edit and Write diffs in two side-by-side columns instead of +/- lines, and /diffsplit to review all uncommitted changes the same way",
+      "source": {
+        "source": "github",
+        "repo": "neteye-platform/cc-split-diff-view"
+      }
+    },
+    {
+      "name": "cc-side-session-summary",
+      "description": "A live side pane with the worktree, goal, progress checklist, what is happening now and the last thing done, plus token and cost stats",
+      "source": {
+        "source": "github",
+        "repo": "neteye-platform/cc-side-session-summary"
+      }
+    }
+  ]
+}
